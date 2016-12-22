@@ -3,3 +3,5 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 mkdir ~/git_project
 cd ~/git_project
 git clone https://github.com/JayveeHe/JayveeTools.git
+cd JayveeTools/UnixConfigs
+sh ./setup.sh
